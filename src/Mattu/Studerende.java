@@ -10,7 +10,7 @@ public class Studerende {
     int age;
 
     //A no-arg constructor that creates a default student
-    public Studerende() {
+    private Studerende() {
         this.name = "Magnus";
         this.age = 18;
     }
@@ -22,21 +22,21 @@ public class Studerende {
     }
 
     // User can configure the age of the student.
-    public void setName(String name) {
+    private void setName(String name) {
         this.name = name;
         System.out.println("Students name has been succesfully changed to :" + name);
     }
     // User can configure the name of the student.
-    public void SetAge(int age){
+    private void SetAge(int age){
         this.age = age;
         System.out.println("Students age has been successfully changed to :" + age);
     }
     // Return name
-    public String getName() {
+    private String getName() {
         return name;
     }
     // Return age
-    public int getAge(){
+    private int getAge(){
         return age;
     }
 

@@ -15,8 +15,8 @@ public class Start {
         System.out.println("_____________________________");
         System.out.println("  ");
 
-        MineMetoder stuff = new MineMetoder();
-        stuff.Stuff();
+        MineMetoder creating = new MineMetoder();
+        creating.Stuff();
 
 
 
