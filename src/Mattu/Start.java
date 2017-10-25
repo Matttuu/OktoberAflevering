@@ -13,6 +13,7 @@ public class Start {
    holdet1.printNames(); // Prints out names of the added students.
 
         System.out.println("_____________________________");
+        System.out.println("  ");
 
         MineMetoder stuff = new MineMetoder();
         stuff.Stuff();
