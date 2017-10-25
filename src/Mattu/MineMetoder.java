@@ -99,7 +99,7 @@ public class MineMetoder {
             System.out.println("File created.");
 
         }
-        // If the file can't be found it this will come into play.
+        // If the file can't be found this will come into play.
         catch (FileNotFoundException e) {
             e.printStackTrace();
         }
